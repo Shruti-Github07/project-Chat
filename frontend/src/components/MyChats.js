@@ -52,7 +52,7 @@ const MyChats = ({ fetchAgain }) => {
             alignItems="center"
             p={3}
             bg="white"
-            w={{ base: "100%", md: "45%" }}
+            w={{ base: "100%", md: "35%" }}
             borderRadius="lg"
             borderWidth="1px"
         >
@@ -72,6 +72,7 @@ const MyChats = ({ fetchAgain }) => {
                         display="flex"
                         fontSize={{ base: "12px", md: "8px", lg: "12px" }}
                         rightIcon={<AddIcon />}
+                        color={"blue"}
                     >
                         New Group 
                     </Button>
@@ -93,7 +94,7 @@ const MyChats = ({ fetchAgain }) => {
                             <Box
                                 onClick={() => setSelectedChat(chat)}
                                 cursor="pointer"
-                                bg={selectedChat === chat ? "#38B2AC" : "#E8E8E8"}
+                                bg={selectedChat === chat ? "#f72585" : "#ffd6ff"}
                                 color={selectedChat === chat ? "white" : "black"}
                                 px={3}
                                 py={2}

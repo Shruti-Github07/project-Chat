@@ -141,7 +141,7 @@ function SideDrawer() {
                         </Text>
                     </Button>
                 </Tooltip>
-                <Text fontSize="3xl" fontFamily="Fasthand" fontWeight="bold" color="green.400">
+                <Text fontSize="3xl" fontFamily="Fasthand" fontWeight="bold" color="#290628">
                     Samvada
                 </Text>
                 <div>

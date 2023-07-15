@@ -44,7 +44,7 @@ export const isSameUser = (messages, m, i) => {
 
 export const getSender = (loggedUser, users) => {
     if (!users || users.length < 2) {
-        return 'Invalid users array';
+        return 'User does not exist';
     }
 
     if (!loggedUser || !loggedUser._id) {
