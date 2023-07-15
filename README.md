@@ -1,2 +1,3 @@
 Screenshots of different features:
-![Screenshot](screenshots/S1.png)
+![Screenshot](screenshots/S1.jpg)
+
